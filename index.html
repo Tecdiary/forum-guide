@@ -299,6 +299,7 @@
                                                 <div class="faq-content">
                                                     <p>
                                                         Please add the ? 'question sign' after index.php in the .htaccess file, you line will be look as <code>RewriteRule ^(.*)$ /index.php?$1 [L]</code>code.
+                                                        You might need to change the <strong>Hauth_base_url</strong> in app/config/hybridauthlib.php, if you are using the social authentication like Facebook and Google.
                                                     </p>
                                                     <p>
                                                         For more information, please visit <a href="https://github.com/bcit-ci/CodeIgniter/wiki/Godaddy-Installation-Tips" target="_blank">this guide page</a>.
