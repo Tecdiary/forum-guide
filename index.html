@@ -48,7 +48,7 @@
         <ul class="sidebar-nav nav">
             <li class="sidebar-brand"><a href="#">Forum</a></li>
             <li><a class="scroll-to" href="#install">Install Guide</a></li>
-            <!-- <li><a class="scroll-to" href="#update">Update Guide</a></li> -->
+            <li><a class="scroll-to" href="#update">Update Guide</a></li>            <!-- <li><a class="scroll-to" href="#update">Update Guide</a></li> -->
             <li><a class="scroll-to" href="#demo">Demo</a></li>
             <li><a class="scroll-to" href="#credit">Credits</a></li>
             <li><a class="scroll-to" href="#faqs">FAQs</a></li>
@@ -97,6 +97,24 @@
                             </ol>
                             <h4>Request Installation</h4>
                             <p>We will provide the service to install the item for $10 To request the installation, please send $10 to saleem@tecdiary.com by Paypal or Skrill and email us your license file and hosting control panel details with reference of your payment to support@tecdiary.com</p>
+                        </div>
+                    </div>
+
+                    <div class="set" id="update">
+                        <div class="set-description">
+                            <h3>Update Instruction</h3>
+                            <p>Requirements: Apache 2.2+, Mysql 5.4+, PHP 5.3+ </p>
+                            <ol><li><strong>Backup all your files/folders and database (must do backup before stating update).</strong></li>
+                                <li>Download and save app/config/dataabse.php</li>
+                                <li>Delete all the files/folders from the mian directory and upload all the files and folders in new version using cPanel or FTP.</li>
+                                <li>Edit newly updated <code>app/config/database.php</code> and set the correct <code>dbhost, dbuser, dbpass and dbname</code> from the download database.php in step 2.</li>
+                                <li>Open the <code>http://yourdomain.com/pathtoupload/update/index.php</code></li>
+                                <li>Go through the checklist and click next and verify the purchase and follow the step on screen.</li>
+                                <li>You will be redirect to final page and now you can login to Invoice manager with your old login.</li>
+                                <li>Remove the install folder and you are done. In case you have any issue after this, please refer to the <a href="#faqs" class="scroll-to">FAQs</a> section below.</li>
+                            </ol>
+                            <h4>Request Update</h4>
+                            <p>We will provide the service to update the item for $20 To request the installation, please send $20 to saleem@tecdiary.com by Paypal or Skrill and email us your license file and hosting control panel details with reference of your payment to support@tecdiary.com</p>
                         </div>
                     </div>
 
